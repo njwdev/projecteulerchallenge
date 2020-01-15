@@ -1,3 +1,4 @@
+console.time('test');
 function largestPalindromeProduct(n) {
   //Sets n digit min
   let loopStart = Math.pow(10, n - 1);
@@ -21,4 +22,5 @@ function largestPalindromeProduct(n) {
   return Math.max(...arr);
 }
 
-console.log(largestPalindromeProduct(3));
+console.log(largestPalindromeProduct(4));
+console.timeEnd('test');
